@@ -3,12 +3,21 @@ Use a microbit to read in light level to ensure houseplants are getting the nece
 
 Connect microbit to its' battery pack and place it in the same location as your houseplant. 
 
+Environment Setup : 
+pip install virtualenv
+virtualenv venv // create virtual environment
+source venv/bin/activate  // activate the virtual environment
+pip install requirements.txt // if this fails manually pip install all the required packages from requirements.txt
+cd microbit
+pip install pyserial
+python manage.py runserver
+
 VERSION 1 - read temperature in surroundings on microbit and pass that temperature into python file - needs to be moved into django to connect everything. 
 
 NOTES : 
 - Connect microbit to your computer via USB 
 
--go to makecode.microbit.org and do a forever loop sending a variable of your choice via serial 
+- go to makecode.microbit.org and do a forever loop sending a variable of your choice via serial 
 
 - download and send to your microbit, if you want you can do 2, one getting info and sending to the one connected to your computer (via radio) 
 
