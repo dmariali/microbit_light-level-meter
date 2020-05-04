@@ -1,8 +1,16 @@
 import os
 import serial
+import platform
 
-ser = serial.Serial('/dev/ttyACM0', 115200)
-ser.flushInput() 
+
+type#For Linux
+if platform.system() == "Linux":
+    ser = serial.Serial('/dev/ttyACM0', 115200)
+else:
+#For Mac
+    ser = serial.Serial('/dev/cu.usbmodem144302', 115200)
+
+ser.flushInput()
 
 
 def updateContext ():
