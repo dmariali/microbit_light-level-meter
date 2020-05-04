@@ -34,3 +34,8 @@ NOTES :
 - sudo usermod -aG dialout <username> , then restart your machine. in terminal type groups and you should see 'dialout' on the list 
 
 - Once all this goes well you should be able to run it and get the output from your microbit 
+
+Notes for setup on Mac
+
+- to make sure the connected microbit is receiving data through the serial port, we first need to determine with port it is on.
+This port will be of the form cu.

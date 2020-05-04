@@ -1,0 +1,12 @@
+
+venv/
+
+microbit/db.sqlite3
+
+microbit/microbit/__pycache__/
+
+microbit/microbit_lightsensor/__pycache__/
+
+microbit/microbit_lightsensor/migrations/__pycache__/
+
+.idea/
