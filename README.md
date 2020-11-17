@@ -39,3 +39,5 @@ Notes for setup on Mac
 
 - to make sure the connected microbit is receiving data through the serial port, we first need to determine with port it is on.
 This port will be of the form cu.
+
+** https://stackoverflow.com/questions/58043143/how-to-set-up-serial-communication-with-microbit-using-pyserial
